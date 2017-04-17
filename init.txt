@@ -4,7 +4,7 @@ git commit -m 'Name'
 git remote add origin server
 git fetch
 git pull
-// -u или --set-upstream-to Если у вас уже есть локальная ветка и вы хотите настроить ее на удаленную ветку.
+// -u или --set-upstream-to …сли у вас уже есть локальнаЯ ветка и вы хотите настроить ее на удаленную ветку.
 git branch -u origin/serverfix
 
 // применить патч
