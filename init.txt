@@ -4,8 +4,8 @@ git commit -m 'Name'
 git remote add origin server
 git fetch
 git pull
--u или --set-upstream-to Если у вас уже есть локальная ветка и вы хотите настроить ее на удаленную ветку.
+-u РёР»Рё --set-upstream-to Р•СЃР»Рё Сѓ РІР°СЃ СѓР¶Рµ РµСЃС‚СЊ Р»РѕРєР°Р»СЊРЅР°СЏ РІРµС‚РєР° Рё РІС‹ С…РѕС‚РёС‚Рµ РЅР°СЃС‚СЂРѕРёС‚СЊ РµРµ РЅР° СѓРґР°Р»РµРЅРЅСѓСЋ РІРµС‚РєСѓ.
 git branch -u origin/serverfix
 
-применить патч
+РїСЂРёРјРµРЅРёС‚СЊ РїР°С‚С‡
 git apply /patch-ruby-client.patch
