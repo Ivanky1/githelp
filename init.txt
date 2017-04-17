@@ -1,0 +1,11 @@
+git init
+git add .
+git commit -m 'Name'
+git remote add origin server
+git fetch
+git pull
+// -u или --set-upstream-to ≈сли у вас уже есть локальна€ ветка и вы хотите настроить ее на удаленную ветку.
+git branch -u origin/serverfix
+
+// применить патч
+git apply /patch-ruby-client.patch
